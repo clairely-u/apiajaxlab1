@@ -1,0 +1,46 @@
+body {
+    background-color: palevioletred;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#awwContainer {
+    display:flex;
+    border: none;
+    flex-flow: row wrap;
+}
+
+.linkdeco {
+    background-color: antiquewhite;
+    border-radius: 40%;
+    display: flex;
+    justify-content: center;
+    max-width: 75%;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute; 
+    align-self: center;
+    bottom: 0;
+    margin: 5px;
+    width: 150px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-wrap: break-word;
+    max-width: 350px;;
+    padding: 30px;
+    border: 2px solid;
+    border-color: antiquewhite;
+    border-radius: 20%;
+    margin: 10px;
+    position: relative;
+}
+
+img {
+    margin-bottom: 15px;
+}
+
